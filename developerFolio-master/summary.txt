@@ -1,0 +1,24 @@
+# Summary of Portfolio Upload Process
+
+## What we've accomplished:
+1. Initialized a Git repository in the developerFolio-master directory
+2. Added the remote GitHub repository (https://github.com/Quchluk/CV)
+3. Added all project files to the staging area
+4. Committed all files with an initial commit message
+5. Created instructions for completing the push to GitHub
+
+## What remains to be done:
+1. Push the committed changes to GitHub using the command:
+   ```
+   git push -u origin master
+   ```
+2. Customize the portfolio by editing the src/portfolio.js file to include your personal information
+3. Optionally, deploy the portfolio as a GitHub Pages site by following the instructions in the README.md
+
+## Additional customization options:
+1. Update your personal information in src/portfolio.js
+2. Add your resume by replacing src/containers/greeting/resume.pdf
+3. Customize colors in src/_globalColor.scss
+4. Add your GitHub token in a .env file to display GitHub projects (optional)
+
+Your developer portfolio is now ready to be uploaded to GitHub!

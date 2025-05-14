@@ -1,0 +1,19 @@
+To complete the upload of your developer portfolio to GitHub, follow these steps:
+
+1. Open a terminal or command prompt
+2. Navigate to your project directory:
+   cd /Users/Tosha/Desktop/CV/developerFolio-master
+
+3. Push your code to GitHub:
+   git push -u origin master
+
+   You'll be prompted to enter your GitHub username and password or personal access token.
+
+4. If you're using two-factor authentication, you'll need to use a personal access token instead of your password.
+   You can create one at: https://github.com/settings/tokens
+
+5. After successful push, your portfolio will be available at: https://github.com/Quchluk/CV
+
+6. To deploy your portfolio as a GitHub Pages site, follow the instructions in the README.md under the "Deploying to GitHub Pages" section.
+
+Your portfolio is now uploaded to GitHub!
