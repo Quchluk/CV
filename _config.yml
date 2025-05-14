@@ -133,22 +133,29 @@ content:
         description: |
           Specialized in Chinese linguistics and computational approaches to language analysis. Conducted research on historical language evolution and corpus linguistics.
 
-  - title: Skills & Languages
+  - title: Skills
     layout: text
     content: |
-      **Technical Skills:**
-      Python, JavaScript, HTML/CSS, Git, Docker, Jupyter, pandas, NumPy, scikit-learn, Hugging Face, Vosk, Farasa, Tesseract, SQLite, UMAP, PCA, Mistral 7B, sentence-transformers, AraBERT, OpenCV, sentence embedding tools, regex optimization, API integration, GitHub Pages deployment
+      **Languages:** Python, JavaScript, HTML, CSS, Bash, SQL, Cypher, XML, YAML, JSON
 
-      **Research Skills:**
-      OCR, ASR, NLP, Arabic corpora, Persian corpora, Chinese linguistics
+      **Libraries / Frameworks:** pandas, NumPy, SciPy, scikit-learn, seaborn, matplotlib, Plotly, UMAP, PCA, T-SNE, KMeans, DBSCAN, Spectral Clustering, NetworkX, TensorFlow, PyTorch, Keras, Hugging Face Transformers, sentence-transformers, Farasa, SpaCy, NLTK, Gensim, OpenCV, PIL, BeautifulSoup
 
-      **Languages:**
+      **Tools & Platforms:** Git, GitHub, Docker, Jupyter Notebook, VS Code, Tesseract OCR, Vosk ASR, SQLite, PostgreSQL, MongoDB, Flask, FastAPI, GitHub Pages, Linux (basic), REST APIs, web scraping, PDF parsing, image binarization, OCR skew correction, ligature segmentation
+
+      **Methods / Concepts:** OCR, ASR, NLP, corpus linguistics, TF-DF, cosine similarity, dimensionality reduction, persistent homology, Vietoris–Rips complex, semantic drift, narrative modeling, lexical field evolution, topological data analysis, spaced repetition, HSK pedagogy
+
+      **Corpora & Scripts:** Arabic (Modern, Classical), Persian, Chinese, Russian, Neo-Aramaic, Phoenician, Latin script, Arabic-based scripts (Urdu, Ottoman), early Islamic manuscripts
+
+  - title: Languages
+    layout: text
+    content: |
       - Russian — native
       - English — fluent
       - Chinese — fluent
-      - Arabic — fluent 
-      - German — B2
-      
+      - Arabic — academic
+      - German — functional
+      - Neo-Aramaic, Phoenician — research
+
   - title: Research Interests
     layout: text
     content: |
