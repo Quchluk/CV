@@ -1,46 +1,47 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: Quchluk/CV
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Anton Mikhailovich Smirnov
+title: Computational Linguist and Digital Humanities Researcher
+email: strog1anton@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +49 170 4312055
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://quchluk.github.io/CV/
 # website_title: Web (Website title override)
+location: Berlin, Germany
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+github_username: Quchluk
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: amsmirnov
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+# - title: Telegram
+#   icon: fab fa-telegram
+#   url: https://t.me/username
+# - title: Blog
+#   icon: fas fa-blog
+#   url: https://example.com/blog
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -50,66 +51,104 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Computational linguist and digital humanities researcher working with OCR, historical corpora, NLP pipelines, and semantic change analysis. Strong focus on Arabic- and Persian-script languages.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  My research combines traditional linguistic approaches with modern computational methods to analyze historical texts and language evolution, particularly in Middle Eastern languages.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        border: weak
+        title: OCR-Based Corpus Analysis of Persian Reform Lexicon
+        link: https://github.com/Quchluk/persian-ocr-reform-analysis
+        link_text: GitHub Repository
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: persian-ocr-reform-analysis
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+            url: https://github.com/Quchluk/persian-ocr-reform-analysis
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Developed a comprehensive pipeline for analyzing Persian reform discourse through OCR processing of historical texts. Implemented Tesseract OCR with custom training, TF-DF analysis, and SQLite database integration. Utilized multi-threaded processing to efficiently handle large corpora.
+
+      - layout: left
+        border: weak
+        title: Diachronic Semantic Clustering of Arabic
+        description: | # this will include new lines to allow paragraphs
+          Created a system for tracking semantic change in Arabic texts across different time periods. Utilized AraBERT for contextual embeddings, applied PCA for dimensionality reduction, and implemented KMeans clustering to identify semantic shifts. Developed visualization tools to track cosine similarity of terms over time.
+
+      - layout: left
+        border: weak
+        title: ASR Transcript Normalization Tool
+        description: | # this will include new lines to allow paragraphs
+          Built a pipeline for automatic speech recognition transcript processing using Vosk. Implemented preprocessing steps and structured normalization rules to improve transcript quality for further NLP analysis.
+
+      - layout: left
+        border: weak
+        title: Narrative Vector Visualization Tool
+        description: | # this will include new lines to allow paragraphs
+          Developed a tool for visualizing narrative structures in texts using sentence embeddings and UMAP dimensionality reduction. Created interactive visualizations to explore semantic relationships between narrative elements.
+
+      - layout: left
+        border: weak
+        title: Educational NLP Webtool
+        description: | # this will include new lines to allow paragraphs
+          Created a vocabulary training application for Chinese and Arabic language learners with a SQLite backend. Implemented spaced repetition algorithms and contextual examples to enhance learning efficiency.
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+        title: Digital Humanities Research Assistant
+        caption: 2020 - 2024
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Worked on multiple projects involving Arabic, Persian, and Russian corpora. Applied computational methods to analyze historical texts and language evolution. Developed tools for OCR processing, semantic analysis, and visualization of linguistic data.
+
+      - layout: right
+        title: NLP + ASR Pipeline Developer
+        sub_title: Gazprom subcontract
+        caption: 2023
+        description: | # this will include new lines to allow paragraphs
+          Developed speech recognition and natural language processing pipelines using Vosk and custom regex normalization techniques. Created systems for processing and analyzing audio transcripts for business intelligence applications.
+
+      - layout: right
+        title: Freelance Chinese Language Teacher
+        caption: 2017 - present
+        description: | # this will include new lines to allow paragraphs
+          Provide specialized Chinese language instruction with focus on HSK preparation. Developed custom teaching materials and methodologies resulting in competition-winning students. Implemented data-driven approaches to track and improve student performance.
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+        title: Freie Universität Berlin
+        sub_title: MA Interdisciplinary Studies of the Middle East
+        caption: 2023 - present
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+          Focus on computational approaches to Middle Eastern languages and digital humanities methodologies. Participant in FU-HebrewU Summer School on Digital Humanities.
+
+      - layout: top-right
+        title: Higher School of Economics Moscow
+        sub_title: BA Oriental and African Studies
+        caption: 2016 - 2020
+        description: | # this will include new lines to allow paragraphs
+          Specialized in Chinese linguistics and computational approaches to language analysis. Conducted research on historical language evolution and corpus linguistics.
+  - title: Skills & Languages
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      **Technical Skills:**
+      Python, JavaScript, HTML/CSS, Git, Docker, Jupyter, pandas, NumPy, scikit-learn, Hugging Face, Vosk, Farasa, Tesseract, SQLite, UMAP, PCA
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      **Research Skills:**
+      OCR, ASR, NLP, Arabic corpora, Persian corpora, Chinese linguistics
+
+      **Languages:**
+      - Russian (native)
+      - English (C2)
+      - Chinese (fluent)
+      - Arabic (reading)
+      - German (B2)
+      - Neo-Aramaic and Phoenician (reading familiarity)
 
 # Footer
 footer_show_references: true
