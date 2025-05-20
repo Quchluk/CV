@@ -4,11 +4,13 @@
       <h1>{{ site.name | escape }}</h1>
       <h2>{{ site.title | escape }}</h2>
     </div>
+
     <div class="col-md-4 text-center">
-      <div class="header-logo" style="background-color: #111; border-radius: 10px; padding: 1em;">
+      <div class="header-logo" style="padding: 1em;">
         <img src="{{ 'images/logo2-min.png' | relative_url }}" alt="Logo" style="width: 180px; height: auto;" />
       </div>
     </div>
+
     <div class="col-md-4 text-right contact-block">
       {%- if site.email -%}
         <p><strong>Email:</strong> <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a></p>
@@ -21,6 +23,35 @@
       {%- endif -%}
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-12 text-center">
+      <ul class="icons no-print">
+        {%- if site.github_username -%}
+          <li>
+            <a target="_blank" href="https://github.com/{{ site.github_username | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-github" title="GitHub"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.linkedin_username -%}
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-linkedin" title="LinkedIn"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {% for link in site.additional_links %}
+          <li>
+            {% include a.html href=link.url class="button button--sacnite button--round-l" %}
+              <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
 
   <div class="row">
     <div class="col-12 text-center">
