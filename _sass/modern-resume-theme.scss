@@ -240,3 +240,17 @@ h1, h2, h3, h4, h5, h6 {
 .contact a:hover {
   color: #ffffff !important;
 }
+
+.contact-block p,
+.contact-block a {
+  color: #ccc;
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+.header-logo img {
+  mix-blend-mode: normal;
+  filter: none;
+  opacity: 1;
+  transition: none;
+}
