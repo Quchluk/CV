@@ -13,10 +13,10 @@
       </div>
     </div>
 
-    <!-- Справа: контакты -->
-    <div class="col-md-4 text-right contact-block">
-      {%- if site.email -%}
-        <p><strong>Email:</strong> <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a></p>
+   <!-- Справа: контакты -->
+<div class="col-md-4 text-right contact-block" style="font-size: 1.7em;">
+  {%- if site.email -%}
+    <p><strong>Email:</strong> <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a></p>
       {%- endif -%}
       {%- if site.phone -%}
         <p><strong>Phone:</strong> {{ site.phone | escape }}</p>
@@ -35,13 +35,6 @@
           <li>
             <a target="_blank" href="https://github.com/{{ site.github_username | cgi_escape | escape }}" class="button button--sacnite button--round-l">
               <i class="fab fa-github" title="GitHub"></i>
-            </a>
-          </li>
-        {%- endif -%}
-        {%- if site.linkedin_username -%}
-          <li>
-            <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username | cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-linkedin" title="LinkedIn"></i>
             </a>
           </li>
         {%- endif -%}
