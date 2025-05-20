@@ -192,3 +192,16 @@ p.quote {
     margin-top: 1rem;
   }
 }
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+
+  img {
+    width: 200px;
+    max-width: 90%;
+    height: auto;
+  }
+}
