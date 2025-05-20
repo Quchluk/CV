@@ -1,5 +1,5 @@
 repository: Quchluk/CV
-#favicon: # Directory of your favicon (eg. images/favicon.ico)(optional)
+# favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -35,262 +35,37 @@ linkedin_username: amsmirnov
 
 # Additional icon links
 additional_links:
-# - title: Telegram
-#   icon: fab fa-telegram
-#   url: https://t.me/username
-# - title: Blog
-#   icon: fas fa-blog
-#   url: https://example.com/blog
+  # - title: Telegram
+  #   icon: fab fa-telegram
+  #   url: https://t.me/username
+  # - title: Blog
+  #   icon: fas fa-blog
+  #   url: https://example.com/blog
 
 # Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: |
   Computational linguist and digital humanities researcher working with OCR, historical corpora, NLP pipelines, and semantic change analysis. Strong focus on Arabic- and Persian-script languages.
 
   My research combines traditional linguistic approaches with modern computational methods to analyze historical texts and language evolution, particularly in Middle Eastern languages.
 
-content:
-  - title: Portfolio
-    layout: list
-    content:
-      - layout: left
-        title: Hadith Retrieval-Augmented Generation (RAG) Application
-        sub_title: Personal Research Project — Berlin, Germany | April 2025 – Present
-        link: https://github.com/Quchluk/al-Bukhari-Hadith-RAG
-        link_text: GitHub Repository
-        description: |
-          Built a full-stack RAG system for semantic question answering over the Sahih al-Bukhari hadith corpus, with source-linked answers and interactive UI.
+# Place all `content:` entries after this block in proper structure.
+# The structure below was previously malformed due to multiple `content:` keys.
+# You must merge them correctly under ONE `content:` array.
+# Ensure indentation is consistent and no blocks are out of place.
 
-          **Goals:**
-          • Natural-language querying of classical Islamic texts  
-          • Source-based scholarly citation  
-          • Scalable RAG pipeline with accessible interface  
-
-          **Key Components:**
-          • Vector DB & Embeddings: FAISS + OpenAI (text-embedding-ada-002), metadata-indexed  
-          • RAG Pipeline: LangChain RetrievalQA + GPT-3.5-turbo  
-          • Frontend: Streamlit app with citation-rich UI and session memory  
-          • Data Handling: Cleaned JSON corpus with structured metadata  
-          • Tech Stack: Python, langchain, streamlit, faiss-cpu, dotenv, openai  
-
-      - layout: left
-        title: HadithView — Metadata-Driven Hadith Corpus Explorer
-        sub_title: Independent Research Project — Berlin, Germany | May 2025 – Present
-        link: https://github.com/Quchluk/HadithView
-        link_text: GitHub Repository
-        description: |
-          Developed an interactive tool for exploring hadith corpora via structured metadata. Designed for use alongside RAG systems to support debugging and verification.
-
-          **Goals:**
-          • Lightweight metadata-based corpus browsing  
-          • Manual verification for QA pipelines  
-
-          **Stack & Components:**
-          • Frontend: Streamlit with session state  
-          • Backend: Pandas + Parquet  
-          • Metadata: Arabic/English text, IDs, placeholders  
-
-          **Achievements:**
-          • Streamlined validation of hadith datasets  
-          • Modular design for reuse in Islamic NLP projects  
-
-      - layout: left
-        title: HadithRAG — Scalable RAG Application for Multi-Volume Hadith Corpus
-        sub_title: Independent Research Project — Berlin, Germany | May 2025 – Present
-        link: https://github.com/Quchluk/HadithRAG
-        link_text: GitHub Repository
-        description: |
-          Scalable RAG system for QA over large hadith collections (e.g., Muslim, Tirmidhi). Based on previous al-Bukhari system.
-
-          **Goals:**
-          • Semantic search across hadiths  
-          • Scalable, performant storage  
-          • Precise citation with structured metadata  
-
-          **Technologies:**
-          • Parquet + Pandas for data  
-          • ChromaDB + OpenAI embeddings  
-          • LangChain RAG pipeline  
-          • Streamlit frontend with caching  
-
-          **Achievements:**
-          • Modular architecture  
-          • Performance improvements  
-          • Foundation for multilingual DH applications  
-
-      - layout: left
-        title: OCRmyPDF-RAG-Assistant — Academic PDF OCR & QA Pipeline
-        sub_title: Independent Research Project — Berlin, Germany | May 2025 – Present
-        link: https://github.com/Quchluk/OCRmyPDF-RAG-Assistant
-        link_text: GitHub Repository
-        description: |
-          Full OCR-to-RAG pipeline for scanned academic PDFs. Links semantic answers to original source pages.
-
-          **Objectives:**
-          • Answer questions over scanned PDFs  
-          • Integrate OCR, chunking, embedding, retrieval  
-          • Trace answers to exact page  
-
-          **Stack (main branch):**
-          • OCRmyPDF + Tesseract  
-          • PyMuPDF for layout extraction  
-          • OpenAI embeddings + ChromaDB  
-          • LangChain RetrievalQA  
-          • UI-ready for Streamlit or Gradio  
-
-          **Achievements:**
-          • Modular, ready-to-deploy system  
-          • Full source traceability  
-          • Enables semantic QA for scanned texts
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak
-        title: OCR-Based Corpus Analysis of Persian Reform Lexicon
-        link: https://github.com/Quchluk/persian-ocr-reform-analysis
-        link_text: GitHub Repository
-        additional_links:
-          - title: persian-ocr-reform-analysis
-            icon: fab fa-github
-        description: | # this will include new lines to allow paragraphs
-          Developed a comprehensive pipeline for analyzing Persian reform discourse through OCR processing of historical texts. Implemented Tesseract OCR with custom training, TF-DF analysis, and SQLite database integration. Utilized multi-threaded processing to efficiently handle large corpora.
-
-      - layout: left
-        border: weak
-        title: Diachronic Semantic Clustering of Arabic
-        description: | # this will include new lines to allow paragraphs
-          Created a system for tracking semantic change in Arabic texts across different time periods. Utilized AraBERT for contextual embeddings, applied PCA for dimensionality reduction, and implemented KMeans clustering to identify semantic shifts. Developed visualization tools to track cosine similarity of terms over time.
-
-      - layout: left
-        border: weak
-        title: ASR Transcript Normalization Tool
-        description: | # this will include new lines to allow paragraphs
-          Built a pipeline for automatic speech recognition transcript processing using Vosk. Implemented preprocessing steps and structured normalization rules to improve transcript quality for further NLP analysis.
-
-      - layout: left
-        border: weak
-        title: Narrative Vector Visualization Tool
-        description: | # this will include new lines to allow paragraphs
-          Developed a tool for visualizing narrative structures in texts using sentence embeddings and UMAP dimensionality reduction. Created interactive visualizations to explore semantic relationships between narrative elements.
-
-      - layout: left
-        border: weak
-        title: Educational NLP Webtool
-        description: | # this will include new lines to allow paragraphs
-          Created a vocabulary training application for Chinese and Arabic language learners with a SQLite backend. Implemented spaced repetition algorithms and contextual examples to enhance learning efficiency.
-          
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Digital Humanities Research Assistant
-        caption: 2020 - 2024
-        description: |
-          Worked on multiple projects involving Arabic, Persian, and Russian corpora...
-      - layout: right
-        title: NLP + ASR Pipeline Developer
-        sub_title: Gazprom subcontract
-        caption: 2023
-        description: |
-          Developed speech recognition and natural language processing pipelines...
-      - layout: right
-        title: Freelance Chinese Language Teacher
-        caption: 2017 - present
-        description: |
-          Provide specialized Chinese language instruction with focus on HSK preparation...
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Freie Universität Berlin
-        sub_title: MA Interdisciplinary Studies of the Middle East
-        caption: 2023 - present
-        description: |
-          Focus on computational approaches to Middle Eastern languages...
-      - layout: top-right
-        title: Higher School of Economics Moscow
-        sub_title: BA Asian and African Studies
-        caption: 2017 - 2022
-        description: | # this will include new lines to allow paragraphs
-          Specialized in Arabic, Persian, Chinese linguistics and computational approaches to language analysis. Conducted research on historical language evolution and corpus linguistics.
-          
-  - title: Skills & Languages
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      **Technical Skills:**
-      Python, JavaScript, HTML/CSS, Git, Docker, Jupyter, pandas, NumPy, scikit-learn, Hugging Face, Vosk, Farasa, Tesseract, SQLite, UMAP, PCA
-
-      **Research Skills:**
-      OCR, ASR, NLP, Arabic corpora, Persian corpora, Chinese linguistics
-
-      **Languages:**
-      - Russian (native)
-      - English (C2)
-      - Chinese (fluent)
-      - Arabic (fluent)
-      - German (B2)
-      - Persian (academic reading)
-
-  - title: 🔒 ATS-KEYWORDS — NOT FOR HUMAN EYES
-    layout: text
-    content: |
-      This section is a declaration of all technologies, libraries, and methods used across my work. It is designed both for ATS systems and for transparency in technical expertise.
-
-    **Languages & Tools:**  
-    Python, R, SQL, HTML, CSS, Shell scripting, Bash, Git, GitHub, Jupyter, Docker, VSCode, PyCharm, RStudio
-
-    **Libraries & Frameworks:**  
-    pandas, NumPy, SciPy, matplotlib, seaborn, Plotly, scikit-learn, TensorFlow, Keras, PyTorch, Hugging Face, joblib, tqdm
-
-    **NLP & Linguistic Analysis:**  
-    LangChain, Retrieval-Augmented Generation (RAG), RetrievalQA, ChatOpenAI, GPT-3.5, GPT-4, text-embedding-ada-002, BERT, ELMo, RoBERTa, XLNet, GPT4ALL, Mistral, Ollama, Lamma, AraVec, Stanza, Farasa
-
-    **OCR & ASR Technologies:**  
-    OCRmyPDF, Tesseract, PyMuPDF, fitz, CNN, convolution, max pooling, fully connected layer, Text skew detection, ligature segmentation, Binarization, histogram projection, segmentation methods, Vosk ASR, ASR normalization pipelines
-
-    **Vector Search & Embeddings:**  
-    FAISS, ChromaDB, cosine similarity, Euclidean similarity, semantic shift detection, Word2Vec (CBOW, Skip-gram), GloVe, fastText, TF-IDF, BM25, TF-DF, embedding similarity
-
-    **Text Processing & Analysis:**  
-    Tokenization, lemmatization, stemming, Stopword removal, chunking, overlapping windows, Named Entity Recognition (NER), entity relation extraction, Sentiment analysis, emotion detection, trend analysis, Document clustering, topic modeling, summarization
-
-    **Explainability & Ethics:**  
-    Explainable AI (XAI), SHAP values, Fairness in ML, bias detection, transparency
-
-    **Big Data & Cloud:**  
-    Apache Spark, PySpark, Hadoop, Kafka, Hive, HBase, Beam, Flink, AWS, GCP, Azure, SageMaker, BigQuery
-
-    **Web & API:**  
-    Web scraping (BeautifulSoup, Scrapy), Web crawling, RESTful API, GraphQL
-
-    **Corpus & Linguistics:**  
-    OSCAR corpus, Leipzig corpus, Arabic News corpus, Semantic clustering, historical text tracking
-
-    **Additional:**  
-    Feature engineering, prompt engineering, Dimensionality reduction (PCA, t-SNE), Statistical analysis, hypothesis testing, A/B testing, Time series, SEM, Bayesian methods
-
-    **Soft Skills:**  
-    Critical thinking, problem-solving, Project management, teamwork, leadership, Multitasking, time management, attention to detail
-
-    **Languages:**  
-    English (fluent), Chinese (fluent), Arabic (fluent), German (intermediate), Russian (native)
-    
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# theme: modern-resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
@@ -299,15 +74,14 @@ sass:
 plugins:
  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - lib/
+  - scripts/
+  - docker-compose.yml
