@@ -188,7 +188,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           Created a vocabulary training application for Chinese and Arabic language learners with a SQLite backend. Implemented spaced repetition algorithms and contextual examples to enhance learning efficiency.
           
-content:
   - title: Experience
     layout: list
     content:
@@ -241,10 +240,10 @@ content:
       - German (B2)
       - Persian (academic reading)
 
-- title: 🔒 ATS-KEYWORDS — NOT FOR HUMAN EYES
-  layout: text
-  content: |
-    This section is a declaration of all technologies, libraries, and methods used across my work. It is designed both for ATS systems and for transparency in technical expertise.
+  - title: 🔒 ATS-KEYWORDS — NOT FOR HUMAN EYES
+    layout: text
+    content: |
+      This section is a declaration of all technologies, libraries, and methods used across my work. It is designed both for ATS systems and for transparency in technical expertise.
 
     **Languages & Tools:**  
     Python, R, SQL, HTML, CSS, Shell scripting, Bash, Git, GitHub, Jupyter, Docker, VSCode, PyCharm, RStudio
