@@ -1,6 +1,6 @@
 # Site
 repository: Quchluk/CV
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: # Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
@@ -58,7 +58,6 @@ about_content: | # this will include new lines to allow paragraphs
   My research combines traditional linguistic approaches with modern computational methods to analyze historical texts and language evolution, particularly in Middle Eastern languages.
 
 content:
-
   - title: Portfolio
     layout: list
     content:
@@ -190,43 +189,48 @@ content:
         description: | # this will include new lines to allow paragraphs
           Created a vocabulary training application for Chinese and Arabic language learners with a SQLite backend. Implemented spaced repetition algorithms and contextual examples to enhance learning efficiency.
           
-- title: Experience
-  layout: list
-  content:
-    - layout: right
-      title: Digital Humanities Research Assistant
-      caption: 2020 - 2024
-      description: |
-        Worked on multiple projects involving Arabic, Persian, and Russian corpora. Applied computational methods to analyze historical texts and language evolution. Developed tools for OCR processing, semantic analysis, and visualization of linguistic data.
-    - layout: right
-      title: NLP + ASR Pipeline Developer
-      sub_title: Gazprom subcontract
-      caption: 2023
-      description: |
-        Developed speech recognition and natural language processing pipelines using Vosk and custom regex normalization techniques. Created systems for processing and analyzing audio transcripts for business intelligence applications.
-    - layout: right
-      title: Freelance Chinese Language Teacher
-      caption: 2017 - present
-      description: |
-        Provide specialized Chinese language instruction with focus on HSK preparation. Developed custom teaching materials and methodologies resulting in competition-winning students. Implemented data-driven approaches to track and improve student performance.
-        Currently developing an educational web application for HSK vocabulary learning using Python and JavaScript. The tool includes interactive flashcards, spaced repetition, and structured vocabulary lists.
-        GitHub: https://github.com/Quchluk/HSK
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Digital Humanities Research Assistant
+        caption: 2020 - 2024
+        description: | # this will include new lines to allow paragraphs
+          Worked on multiple projects involving Arabic, Persian, and Russian corpora. Applied computational methods to analyze historical texts and language evolution. Developed tools for OCR processing, semantic analysis, and visualization of linguistic data.
 
-- title: Education
-  layout: list
-  content:
-    - layout: top-right
-      title: Freie Universität Berlin
-      sub_title: MA Interdisciplinary Studies of the Middle East
-      caption: 2023 - present
-      description: |
-        Focus on computational approaches to Middle Eastern languages and digital humanities methodologies. Participant in FU-HebrewU Summer School on Digital Humanities.
-    - layout: top-right
-      title: Higher School of Economics Moscow
-      sub_title: BA Asian and African Studies
-      caption: 2017 - 2022
-      description: |
-        Specialized in Arabic, Persian, Chinese linguistics and computational approaches to language analysis. Conducted research on historical language evolution and corpus linguistics.
+      - layout: right
+        title: NLP + ASR Pipeline Developer
+        sub_title: Gazprom subcontract
+        caption: 2023
+        description: | # this will include new lines to allow paragraphs
+          Developed speech recognition and natural language processing pipelines using Vosk and custom regex normalization techniques. Created systems for processing and analyzing audio transcripts for business intelligence applications.
+
+      - layout: right
+        title: Freelance Chinese Language Teacher
+        caption: 2017 - present
+        description: | # this will include new lines to allow paragraphs
+          Provide specialized Chinese language instruction with focus on HSK preparation. Developed custom teaching materials and methodologies resulting in competition-winning students. Implemented data-driven approaches to track and improve student performance.
+
+          Currently developing an educational web application for HSK vocabulary learning using Python and JavaScript. The tool includes interactive flashcards, spaced repetition, and structured vocabulary lists.
+          GitHub: https://github.com/Quchluk/HSK
+          
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Freie Universität Berlin
+        sub_title: MA Interdisciplinary Studies of the Middle East
+        caption: 2023 - present
+        description: | # this will include new lines to allow paragraphs
+          Focus on computational approaches to Middle Eastern languages and digital humanities methodologies. Participant in FU-HebrewU Summer School on Digital Humanities.
+
+      - layout: top-right
+        title: Higher School of Economics Moscow
+        sub_title: BA Asian and African Studies
+        caption: 2017 - 2022
+        description: | # this will include new lines to allow paragraphs
+          Specialized in Arabic, Persian, Chinese linguistics and computational approaches to language analysis. Conducted research on historical language evolution and corpus linguistics.
+          
   - title: Skills & Languages
     layout: text
     content: | # this will include new lines to allow paragraphs
