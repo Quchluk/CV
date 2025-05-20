@@ -46,6 +46,9 @@
           </li>
         {%- endif -%}
         {% for link in site.additional_links %}
-          <li>
-            {% include a.html href=link.url class="button button--sacnite button--round-l" %}
-              <i class="{{ link.icon }}" title="{{ link.title
+  <li>
+    {% include a.html href=link.url class="button button--sacnite button--round-l" %}
+      <i class="{{ link.icon }}" title="{{ link.title }}"></i>
+    {% endinclude %}
+  </li>
+{% endfor %}
