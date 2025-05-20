@@ -1,6 +1,8 @@
 repository: Quchluk/CV
 
 version: 2
+url: "https://www.antonsmirnov.de"
+baseurl: ""
 
 name: Anton Smirnov
 title: Computational Linguist/NLP Engineer
