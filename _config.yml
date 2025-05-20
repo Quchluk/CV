@@ -205,7 +205,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Developed speech recognition and natural language processing pipelines using Vosk and custom regex normalization techniques. Created systems for processing and analyzing audio transcripts for business intelligence applications.
 
-            - layout: right
+      - layout: right
         title: Freelance Chinese Language Teacher
         caption: 2017 - present
         description: | # this will include new lines to allow paragraphs
