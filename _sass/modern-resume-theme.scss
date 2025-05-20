@@ -254,3 +254,10 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
   transition: none;
 }
+
+.contact-block p,
+.contact-block a,
+.contact-block strong {
+  font-size: 1.6rem !important;
+  color: #f0f0f0 !important;
+}
