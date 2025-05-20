@@ -1,4 +1,11 @@
 remote_theme: sproogen/modern-resume-theme
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-remote-theme
+
 repository: Quchluk/CV
 
 version: 2
