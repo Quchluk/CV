@@ -6,7 +6,7 @@ name: Anton Smirnov
 title: Computational Linguist/NLP Engineer
 email: AntonSmirnovM@protonmail.com
 phone: +49 170 4312055
-website: https://quchluk.github.io/CV/
+website: https://github.com/Quchluk
 location: Berlin, Germany
 darkmode: true
 github_username: Quchluk
@@ -161,13 +161,7 @@ content:
       **Research Skills:**
       OCR, ASR, NLP, Arabic corpora, Persian corpora, Chinese linguistics
 
-      **Languages:**
-      - Russian (native)
-      - English (C2)
-      - Chinese (fluent)
-      - Arabic (fluent)
-      - German (B2)
-      - Persian (academic reading)
+     **Languages:** Russian (native), English (C2), Chinese (fluent), Arabic (fluent), German (B2), Persian (academic reading)
 
   - title: 🔒 ATS-KEYWORDS — NOT FOR HUMAN EYES
     layout: text
