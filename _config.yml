@@ -189,31 +189,26 @@ content:
         description: | # this will include new lines to allow paragraphs
           Created a vocabulary training application for Chinese and Arabic language learners with a SQLite backend. Implemented spaced repetition algorithms and contextual examples to enhance learning efficiency.
           
+content:
   - title: Experience
     layout: list
     content:
       - layout: right
         title: Digital Humanities Research Assistant
         caption: 2020 - 2024
-        description: | # this will include new lines to allow paragraphs
-          Worked on multiple projects involving Arabic, Persian, and Russian corpora. Applied computational methods to analyze historical texts and language evolution. Developed tools for OCR processing, semantic analysis, and visualization of linguistic data.
-
+        description: |
+          Worked on multiple projects involving Arabic, Persian, and Russian corpora...
       - layout: right
         title: NLP + ASR Pipeline Developer
         sub_title: Gazprom subcontract
         caption: 2023
-        description: | # this will include new lines to allow paragraphs
-          Developed speech recognition and natural language processing pipelines using Vosk and custom regex normalization techniques. Created systems for processing and analyzing audio transcripts for business intelligence applications.
-
+        description: |
+          Developed speech recognition and natural language processing pipelines...
       - layout: right
         title: Freelance Chinese Language Teacher
         caption: 2017 - present
-        description: | # this will include new lines to allow paragraphs
-          Provide specialized Chinese language instruction with focus on HSK preparation. Developed custom teaching materials and methodologies resulting in competition-winning students. Implemented data-driven approaches to track and improve student performance.
-
-          Currently developing an educational web application for HSK vocabulary learning using Python and JavaScript. The tool includes interactive flashcards, spaced repetition, and structured vocabulary lists.
-          GitHub: https://github.com/Quchluk/HSK
-          
+        description: |
+          Provide specialized Chinese language instruction with focus on HSK preparation...
   - title: Education
     layout: list
     content:
@@ -221,9 +216,8 @@ content:
         title: Freie Universität Berlin
         sub_title: MA Interdisciplinary Studies of the Middle East
         caption: 2023 - present
-        description: | # this will include new lines to allow paragraphs
-          Focus on computational approaches to Middle Eastern languages and digital humanities methodologies. Participant in FU-HebrewU Summer School on Digital Humanities.
-
+        description: |
+          Focus on computational approaches to Middle Eastern languages...
       - layout: top-right
         title: Higher School of Economics Moscow
         sub_title: BA Asian and African Studies
