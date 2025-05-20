@@ -1,33 +1,29 @@
 <div class="container header-container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+  <div class="row align-items-center" style="margin-top: 2em; margin-bottom: 2em;">
+    <div class="col-md-4 text-left">
       <h1>{{ site.name | escape }}</h1>
       <h2>{{ site.title | escape }}</h2>
-
-      <div class="header-logo" style="margin: 2em 0;">
-        <img src="{{ 'images/logo2-min.png' | relative_url }}" alt="Logo" style="width: 200px; max-width: 90%; height: auto;" />
+    </div>
+    <div class="col-md-4 text-center">
+      <div class="header-logo" style="background-color: #111; border-radius: 10px; padding: 1em;">
+        <img src="{{ 'images/logo2-min.png' | relative_url }}" alt="Logo" style="width: 180px; height: auto;" />
       </div>
-
+    </div>
+    <div class="col-md-4 text-right contact-block">
       {%- if site.email -%}
-        <p>
-          {{ site.email_title | default: "Email" }}:
-          <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
-        </p>
+        <p><strong>Email:</strong> <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a></p>
       {%- endif -%}
       {%- if site.phone -%}
-        <p>
-          {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
-        </p>
+        <p><strong>Phone:</strong> {{ site.phone | escape }}</p>
       {%- endif -%}
       {%- if site.website -%}
-        <p>
-          {{ site.website_title | default: "Web" }}:
-          {% include a.html href=site.website %}{{ site.website | escape }}</a>
-        </p>
+        <p><strong>Web:</strong> <a href="{{ site.website }}" target="_blank">{{ site.website | escape }}</a></p>
       {%- endif -%}
     </div>
+  </div>
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+  <div class="row">
+    <div class="col-12 text-center">
       <ul class="icons no-print">
         {%- if site.dribbble_username -%}
           <li>
