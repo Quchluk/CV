@@ -13,19 +13,31 @@
       </div>
     </div>
 
-   <!-- Справа: контакты -->
-<div class="col-md-4 text-right contact-block" style="font-size: 2.0em !important;">
+<!-- Справа: контакты -->
+<div class="col-md-4 text-right contact-block">
   {%- if site.email -%}
-    <p><strong>Email:</strong> <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a></p>
-      {%- endif -%}
-      {%- if site.phone -%}
-        <p><strong>Phone:</strong> {{ site.phone | escape }}</p>
-      {%- endif -%}
-      {%- if site.website -%}
-        <p><strong>Web:</strong> <a href="{{ site.website }}" target="_blank">{{ site.website | escape }}</a></p>
-      {%- endif -%}
-    </div>
-  </div>
+    <p style="font-size: 1.6em !important;">
+      <strong>Email:</strong>
+      <a href="mailto:{{ site.email }}" target="_blank" style="font-size: 1.6em !important;">
+        {{ site.email | escape }}
+      </a>
+    </p>
+  {%- endif -%}
+  {%- if site.phone -%}
+    <p style="font-size: 1.6em !important;">
+      <strong>Phone:</strong> {{ site.phone | escape }}
+    </p>
+  {%- endif -%}
+  {%- if site.website -%}
+    <p style="font-size: 1.6em !important;">
+      <strong>Web:</strong>
+      <a href="{{ site.website }}" target="_blank" style="font-size: 1.6em !important;">
+        {{ site.website | escape }}
+      </a>
+    </p>
+  {%- endif -%}
+</div>
+    
 
   <!-- Соцсети -->
   <div class="row">
