@@ -189,6 +189,7 @@ content:
         title: Educational NLP Webtool
         description: | # this will include new lines to allow paragraphs
           Created a vocabulary training application for Chinese and Arabic language learners with a SQLite backend. Implemented spaced repetition algorithms and contextual examples to enhance learning efficiency.
+          
   - title: Experience
     layout: list
     content:
