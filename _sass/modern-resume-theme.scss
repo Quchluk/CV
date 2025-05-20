@@ -213,18 +213,30 @@ body {
 }
 
 a {
-  color: #00aaff;
+  color: #00aaff !important;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #66ccff !important;
 }
 
 .card {
-  background-color: #111;
-  border-color: #333;
+  background-color: #111 !important;
+  border-color: #333 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #f0f0f0;
+  color: #f0f0f0 !important;
 }
 
+.header-right p,
+.footer-container p,
+.footer-container a,
 .contact a {
-  color: #aaaaaa;
+  color: #cccccc !important;
+}
+
+.contact a:hover {
+  color: #ffffff !important;
 }
