@@ -246,7 +246,7 @@ content:
       - German (B2)
       - Persian (academic reading)
 
-    - title: 🔒 ATS-KEYWORDS — NOT FOR HUMAN EYES
+  - title: 🔒 ATS-KEYWORDS — NOT FOR HUMAN EYES
     layout: text
     content: |
       This section is a declaration of all technologies, libraries, and methods used across my work. It is designed both for ATS systems and for transparency in technical expertise.
