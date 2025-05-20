@@ -1,20 +1,38 @@
 <div class="container header-container">
   <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left text-center">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
       <h1>{{ site.name | escape }}</h1>
       <h2>{{ site.title | escape }}</h2>
 
-      <div class="header-logo">
-        <img src="{{ 'images/logo2-min.png' | relative_url }}" alt="Logo" />
+      <div class="header-logo" style="margin: 2em 0;">
+        <img src="{{ 'images/logo2-min.png' | relative_url }}" alt="Logo" style="width: 200px; max-width: 90%; height: auto;" />
       </div>
+
+      {%- if site.email -%}
+        <p>
+          {{ site.email_title | default: "Email" }}:
+          <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+        </p>
+      {%- endif -%}
+      {%- if site.phone -%}
+        <p>
+          {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
+        </p>
+      {%- endif -%}
+      {%- if site.website -%}
+        <p>
+          {{ site.website_title | default: "Web" }}:
+          {% include a.html href=site.website %}{{ site.website | escape }}</a>
+        </p>
+      {%- endif -%}
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
       <ul class="icons no-print">
         {%- if site.dribbble_username -%}
           <li>
-            <a target="_blank" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-dribbble-square" title="Dribble link"></i>
+            <a target="_blank" href="https://dribbble.com/{{ site.dribbble_username | cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-dribbble-square" title="Dribbble link"></i>
             </a>
           </li>
         {%- endif -%}
