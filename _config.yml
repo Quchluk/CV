@@ -26,6 +26,7 @@ linkedin_username: amsmirnov
 about_profile_image: images/profile.jpg
 about_content: |
   Master’s student at Freie Universität Berlin (Interdisciplinary Studies of the Middle East), focusing on computational linguistics and digital text analysis. My work involves processing historical Arabic, Persian, and Chinese corpora using OCR, NLP, and vector-based methods. I build tools for semantic retrieval, layout processing, and long-range comparison of textual structures. Interested in open-source, reproducible pipelines, and applications of machine learning to classical texts.
+
 content:
 - title: Portfolio
   layout: list
@@ -81,7 +82,7 @@ content:
         • Retrieval: ChromaDB, OpenAI embeddings, LangChain RetrievalQA  
         • Task: Connect user queries to relevant content in scanned texts  
         • Output: Page-level traceability and structured answers
-        
+
 - title: Experience
   layout: list
   content:
@@ -108,10 +109,10 @@ content:
       caption: 2017 – 2022
       description: |
         Studied Arabic, Persian, and Chinese linguistics with an emphasis on language change and policy. Bachelor's thesis involved frequency analysis of language reform terms in Persian using historical corpora and basic NLP techniques.
- 
- - title: Soft Skills
-   layout: text
-   content: |
+
+- title: Soft Skills
+  layout: text
+  content: |
     Ownership & Initiative, Analytical Clarity, Resilience in Complexity, Direct Communication, Learning Autonomy, Independent Problem Solving, Focused Execution
 
 - title: Skills & Languages
@@ -135,7 +136,7 @@ content:
     **Languages:**  
     Russian (native), English (C2), Chinese (fluent),  
     Arabic (fluent reading), German (B2), Persian (academic reading)
-   
+
 - title: 🔒 KEYWORDS
   layout: text
   content: |
@@ -153,14 +154,7 @@ content:
 
 footer_show_references: true
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
-
-exclude :
+exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
