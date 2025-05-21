@@ -24,184 +24,123 @@ linkedin_username: amsmirnov
 
 about_profile_image: images/profile.jpg
 about_content: |
-  Computational linguist and digital humanities researcher working with OCR, historical corpora, NLP pipelines, and semantic change analysis. Strong focus on Arabic- and Persian-script languages.
-
-  My research combines traditional linguistic approaches with modern computational methods to analyze historical texts and language evolution, particularly in Middle Eastern languages.
-
+  Master’s student at Freie Universität Berlin (Interdisciplinary Studies of the Middle East), focusing on computational linguistics and digital text analysis. My work involves processing historical Arabic, Persian, and Chinese corpora using OCR, NLP, and vector-based methods. I build tools for semantic retrieval, layout processing, and long-range comparison of textual structures. Interested in open-source, reproducible pipelines, and applications of machine learning to classical texts.
 content:
-  - title: Portfolio
-    layout: list
-    content:
-      - layout: left
-        title: Hadith Retrieval-Augmented Generation (RAG) Application
-        sub_title: Personal Research Project — Berlin, Germany | April 2025 – Present
-        link: https://github.com/Quchluk/al-Bukhari-Hadith-RAG
-        link_text: GitHub Repository
-        description: |
-          Built a full-stack RAG system for semantic question answering over the Sahih al-Bukhari hadith corpus, with source-linked answers and interactive UI.
+- title: Portfolio
+  layout: list
+  content:
+    - layout: left
+      title: Hadith Retrieval-Augmented Generation (RAG) Application
+      sub_title: Personal Research Project — Berlin, Germany | April 2025 – Present
+      link: https://github.com/Quchluk/al-Bukhari-Hadith-RAG
+      link_text: GitHub Repository
+      description: |
+        Web interface for semantic question-answering over the *Sahih al-Bukhari* corpus with citation-linked outputs. Enables researchers to explore classical Islamic texts through natural-language queries.
 
-          **Goals:**
-          • Natural-language querying of classical Islamic texts  
-          • Source-based scholarly citation  
-          • Scalable RAG pipeline with accessible interface
+        • RAG stack: FAISS + OpenAI embeddings (text-embedding-ada-002), LangChain RetrievalQA with GPT-3.5  
+        • Frontend: Streamlit with inline citations, memory, and feedback  
+        • Corpus: Cleaned JSON with metadata (book, chapter, number)  
+        • Impact: Makes 9th-century Islamic sources explorable with modern NLP tools
 
-          **Key Components:**
-          • Vector DB & Embeddings: FAISS + OpenAI (text-embedding-ada-002), metadata-indexed  
-          • RAG Pipeline: LangChain RetrievalQA + GPT-3.5-turbo  
-          • Frontend: Streamlit app with citation-rich UI and session memory  
-          • Data Handling: Cleaned JSON corpus with structured metadata  
-          • Tech Stack: Python, langchain, streamlit, faiss-cpu, dotenv, openai
+    - layout: left
+      title: HadithView — Metadata-Driven Corpus Explorer
+      sub_title: Independent Project — Berlin, Germany | May 2025 – Present
+      link: https://github.com/Quchluk/HadithView
+      link_text: GitHub Repository
+      description: |
+        Interface for manual exploration of hadith corpora by structured metadata. Designed for cross-checking RAG system outputs and identifying alignment issues.
 
-      - layout: left
-        title: HadithView — Metadata-Driven Hadith Corpus Explorer
-        sub_title: Independent Research Project — Berlin, Germany | May 2025 – Present
-        link: https://github.com/Quchluk/HadithView
-        link_text: GitHub Repository
-        description: |
-          Developed an interactive tool for exploring hadith corpora via structured metadata. Designed for use alongside RAG systems to support debugging and verification.
+        • Data Layer: Parquet + pandas  
+        • UI: Streamlit with lightweight controls  
+        • Use Case: Facilitates validation and training of QA systems on religious corpora
 
-          **Goals:**
-          • Lightweight metadata-based corpus browsing  
-          • Manual verification for QA pipelines
+    - layout: left
+      title: HadithRAG — Scalable QA for Multi-Volume Hadith Collections
+      sub_title: Independent Project — Berlin, Germany | May 2025 – Present
+      link: https://github.com/Quchluk/HadithRAG
+      link_text: GitHub Repository
+      description: |
+        Extends the Bukhari pipeline to larger collections (e.g. Muslim, Tirmidhi). Handles multilingual input and scalable corpus sizes.
 
-          **Stack & Components:**
-          • Frontend: Streamlit with session state  
-          • Backend: Pandas + Parquet  
-          • Metadata: Arabic/English text, IDs, placeholders
+        • Storage: Parquet files with language-agnostic indexing  
+        • Retrieval: ChromaDB + OpenAI embedding-based vector search  
+        • UI: Streamlit with filterable metadata  
+        • Result: Modular design for future DH/NLP applications
 
-          **Achievements:**
-          • Streamlined validation of hadith datasets  
-          • Modular design for reuse in Islamic NLP projects
+    - layout: left
+      title: OCRmyPDF-RAG Assistant
+      sub_title: Independent Project — Berlin, Germany | May 2025 – Present
+      link: https://github.com/Quchluk/OCRmyPDF-RAG-Assistant
+      link_text: GitHub Repository
+      description: |
+        End-to-end pipeline for semantic QA over scanned academic PDFs. Combines OCR, chunking, embedding, and source-linked retrieval.
 
-      - layout: left
-        title: HadithRAG — Scalable RAG Application for Multi-Volume Hadith Corpus
-        sub_title: Independent Research Project — Berlin, Germany | May 2025 – Present
-        link: https://github.com/Quchluk/HadithRAG
-        link_text: GitHub Repository
-        description: |
-          Scalable RAG system for QA over large hadith collections (e.g., Muslim, Tirmidhi). Based on previous al-Bukhari system.
+        • OCR & Layout: OCRmyPDF, Tesseract, PyMuPDF  
+        • Search: ChromaDB, OpenAI embeddings, LangChain RetrievalQA  
+        • Goal: Answer scholarly questions and trace responses to original scanned pages  
+        • Outcome: Research-ready prototype for working with academic archives
 
-          **Goals:**
-          • Semantic search across hadiths  
-          • Scalable, performant storage  
-          • Precise citation with structured metadata
+    - title: Experience
+     layout: list
+     content:
+    - layout: left
+      title: ASR & NLP Pipeline Assistant
+      sub_title: Subcontract for FosAgro (via third party)
+      caption: 2023
+      description: |
+        Worked on a processing pipeline for audio interviews. Used a speech recognition model to transcribe Russian recordings. Then applied a language model to improve the text: fixing errors, adding missing words, and inserting punctuation. Finally, applied a layout model to structure the text into readable interview format. As a result, users could upload raw audio and receive a clean, formatted transcript.
 
-          **Technologies:**
-          • Parquet + Pandas for data  
-          • ChromaDB + OpenAI embeddings  
-          • LangChain RAG pipeline  
-          • Streamlit frontend with caching
+- title: Education
+  layout: list
+  content:
+    - layout: top-right
+      title: Freie Universität Berlin
+      sub_title: MA Interdisciplinary Studies of the Middle East
+      caption: 2023 – present
+      description: |
+        Focus on computational approaches to historical Arabic and Persian texts. Worked with OCR pipelines, lemmatization tools, and embedding models to analyze semantic change. Participant in the FU-HebrewU Summer School on Digital Humanities.
 
-          **Achievements:**
-          • Modular architecture  
-          • Performance improvements  
-          • Foundation for multilingual DH applications
-
-      - layout: left
-        title: OCRmyPDF-RAG-Assistant — Academic PDF OCR & QA Pipeline
-        sub_title: Independent Research Project — Berlin, Germany | May 2025 – Present
-        link: https://github.com/Quchluk/OCRmyPDF-RAG-Assistant
-        link_text: GitHub Repository
-        description: |
-          Full OCR-to-RAG pipeline for scanned academic PDFs. Links semantic answers to original source pages.
-
-          **Objectives:**
-          • Answer questions over scanned PDFs  
-          • Integrate OCR, chunking, embedding, retrieval  
-          • Trace answers to exact page
-
-          **Stack (main branch):**
-          • OCRmyPDF + Tesseract  
-          • PyMuPDF for layout extraction  
-          • OpenAI embeddings + ChromaDB  
-          • LangChain RetrievalQA  
-          • UI-ready for Streamlit or Gradio
-
-          **Achievements:**
-          • Modular, ready-to-deploy system  
-          • Full source traceability  
-          • Enables semantic QA for scanned texts
-
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Digital Humanities Research Assistant
-        caption: 2020 - 2024
-        description: |
-          Worked on multiple projects involving Arabic, Persian, and Russian corpora. Applied computational methods to analyze historical texts and language evolution. Developed tools for OCR processing, semantic analysis, and visualization of linguistic data.
-
-      - layout: right
-        title: NLP + ASR Pipeline Developer
-        sub_title: Gazprom subcontract
-        caption: 2023
-        description: |
-          Developed speech recognition and natural language processing pipelines using Vosk and custom regex normalization techniques. Created systems for processing and analyzing audio transcripts for business intelligence applications.
-
-      - layout: right
-        title: Freelance Chinese Language Teacher
-        caption: 2017 - present
-        description: |
-          Provide specialized Chinese language instruction with focus on HSK preparation. Developed custom teaching materials and methodologies resulting in competition-winning students. Implemented data-driven approaches to track and improve student performance.
-          GitHub: https://github.com/Quchluk/HSK
-
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Freie Universität Berlin
-        sub_title: MA Interdisciplinary Studies of the Middle East
-        caption: 2023 - present
-        description: |
-          Focus on computational approaches to Middle Eastern languages and digital humanities methodologies. Participant in FU-HebrewU Summer School on Digital Humanities.
-
-      - layout: top-right
-        title: Higher School of Economics Moscow
-        sub_title: BA Asian and African Studies
-        caption: 2017 - 2022
-        description: |
-          Specialized in Arabic, Persian, Chinese linguistics and computational approaches to language analysis. Conducted research on historical language evolution and corpus linguistics.
-
+    - layout: top-right
+      title: Higher School of Economics, Moscow
+      sub_title: BA Asian and African Studies
+      caption: 2017 – 2022
+      description: |
+       Specialized in Arabic, Persian, and Chinese linguistics. Conducted research on language reform, lexical frequency change, and corpus-based analysis. Developed strong background in historical linguistics and technical text processing.
+ 
   - title: Skills & Languages
-    layout: text
-    content: |
-      **Technical Skills:**  
-      Python, JavaScript, HTML/CSS, Git, Docker, Jupyter, pandas, NumPy, scikit-learn, Hugging Face, Vosk, Farasa, Tesseract, SQLite, UMAP, PCA
+  layout: text
+  content: |
+    **Languages & Frameworks:**  
+    Python, JavaScript (basic), HTML/CSS, Bash, Git, Docker, pandas, NumPy, scikit-learn, Hugging Face, Streamlit, LangChain
 
-      **Research Skills:**  
-      OCR, ASR, NLP, Arabic corpora, Persian corpora, Chinese linguistics
+    **Core Competencies:**  
+    • NLP: Embedding models, RAG architecture, vector search (FAISS, ChromaDB), corpus normalization, semantic clustering  
+    • OCR/ASR: Tesseract, OCRmyPDF, PyMuPDF layout parsing, Vosk ASR integration, regex-based cleanup  
+    • Data: JSON, Parquet, SQLite; data cleaning and metadata structuring  
+    • Research Tools: UMAP, PCA, TF-DF, cosine similarity, token-level analysis, persistent homology (in progress)
 
-      **Languages:**  
-      Russian (native), English (C2), Chinese (fluent), Arabic (fluent), German (B2), Persian (academic reading)
+  - title: Soft Skills
+  layout: text
+  content: |
+    Ownership & Initiative, Analytical Clarity, Resilience in Complexity, Direct Communication, Learning Autonomy, Technical Empathy, System Thinking
 
-  - title: 🔒 ATS-KEYWORDS — NOT FOR HUMAN EYES
-    layout: text
-    content: |
-      **Languages & Tools:** Python, R, SQL, HTML, CSS, Shell scripting, Bash, Git, GitHub, Jupyter, Docker, VSCode, PyCharm, RStudio
+    **Languages:**  
+    Russian (native), English (C2), Chinese (fluent), Arabic (fluent reading + research), German (B2), Persian (academic)
+    
+ - title: 🔒 KEYWORDS 
+  layout: text
+  content: |
+    **Languages & Tools:** Python, JavaScript, SQL, HTML, CSS, Git, Docker
 
-      **Libraries & Frameworks:** pandas, NumPy, SciPy, matplotlib, seaborn, Plotly, scikit-learn, TensorFlow, Keras, PyTorch, Hugging Face, joblib, tqdm
+    **Libraries & Frameworks:** pandas, NumPy, scikit-learn, matplotlib, Hugging Face, Streamlit, LangChain, PyMuPDF
 
-      **NLP & Linguistic Analysis:** LangChain, Retrieval-Augmented Generation (RAG), RetrievalQA, ChatOpenAI, GPT-3.5, GPT-4, text-embedding-ada-002, BERT, ELMo, RoBERTa, XLNet, GPT4ALL, Mistral, Ollama, Lamma, AraVec, Stanza, Farasa
+    **NLP & Text Analysis:** Retrieval-Augmented Generation (RAG), LangChain RetrievalQA, OpenAI embeddings, FAISS, ChromaDB, embedding-based retrieval, UMAP, PCA, lemmatization, tokenization, frequency analysis
 
-      **OCR & ASR Technologies:** OCRmyPDF, Tesseract, PyMuPDF, fitz, CNN, convolution, max pooling, fully connected layer, Text skew detection, ligature segmentation, Binarization, histogram projection, segmentation methods, Vosk ASR, ASR normalization pipelines
+    **OCR & ASR:** OCRmyPDF, Tesseract, layout parsing, speech recognition, LLM-based cleanup, punctuation correction, text structuring
 
-      **Vector Search & Embeddings:** FAISS, ChromaDB, cosine similarity, Euclidean similarity, semantic shift detection, Word2Vec (CBOW, Skip-gram), GloVe, fastText, TF-IDF, BM25, TF-DF, embedding similarity
+    **Corpus & Historical Linguistics:** Arabic and Persian corpora, historical text normalization, semantic shift analysis, lexical change tracking
 
-      **Text Processing & Analysis:** Tokenization, lemmatization, stemming, Stopword removal, chunking, overlapping windows, Named Entity Recognition (NER), entity relation extraction, Sentiment analysis, emotion detection, trend analysis, Document clustering, topic modeling, summarization
-
-      **Explainability & Ethics:** Explainable AI (XAI), SHAP values, Fairness in ML, bias detection, transparency
-
-      **Big Data & Cloud:** Apache Spark, PySpark, Hadoop, Kafka, Hive, HBase, Beam, Flink, AWS, GCP, Azure, SageMaker, BigQuery
-
-      **Web & API:** Web scraping (BeautifulSoup, Scrapy), Web crawling, RESTful API, GraphQL
-
-      **Corpus & Linguistics:** OSCAR corpus, Leipzig corpus, Arabic News corpus, Semantic clustering, historical text tracking
-
-      **Additional:** Feature engineering, prompt engineering, Dimensionality reduction (PCA, t-SNE), Statistical analysis, hypothesis testing, A/B testing, Time series, SEM, Bayesian methods
-
-      **Soft Skills:** Critical thinking, problem-solving, Project management, teamwork, leadership, Multitasking, time management, attention to detail
-
-      **Languages:** English (fluent), Chinese (fluent), Arabic (fluent), German (intermediate), Russian (native)
+    **Languages:** Russian (native), English (fluent), Chinese (fluent), Arabic (fluent), German (B2), Persian (reading)
 
 footer_show_references: true
 
