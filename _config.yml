@@ -1,13 +1,14 @@
 remote_theme: sproogen/modern-resume-theme
+
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 repository: Quchluk/CV
-
 version: 2
 url: "https://www.antonsmirnov.de"
 baseurl: ""
