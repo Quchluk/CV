@@ -1,5 +1,6 @@
 <div class="container header-container">
   <div class="row align-items-center" style="margin-top: 2em; margin-bottom: 2em;">
+
     <!-- Слева: имя и титул -->
     <div class="col-md-4 text-left">
       <h1>{{ site.name | escape }}</h1>
@@ -13,31 +14,20 @@
       </div>
     </div>
 
-<!-- Справа: контакты -->
-<div class="col-md-4 text-right contact-block">
-  {%- if site.email -%}
-    <p style="font-size: 1.6em !important;">
-      <strong>Email:</strong>
-      <a href="mailto:{{ site.email }}" target="_blank" style="font-size: 1.6em !important;">
-        {{ site.email | escape }}
-      </a>
-    </p>
-  {%- endif -%}
-  {%- if site.phone -%}
-    <p style="font-size: 1.6em !important;">
-      <strong>Phone:</strong> {{ site.phone | escape }}
-    </p>
-  {%- endif -%}
-  {%- if site.website -%}
-    <p style="font-size: 1.6em !important;">
-      <strong>Web:</strong>
-      <a href="{{ site.website }}" target="_blank" style="font-size: 1.6em !important;">
-        {{ site.website | escape }}
-      </a>
-    </p>
-  {%- endif -%}
-</div>
-    
+    <!-- Справа: контакты -->
+    <div class="col-md-4 text-right contact-info">
+      {%- if site.email -%}
+        <p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email | escape }}</a></p>
+      {%- endif -%}
+      {%- if site.phone -%}
+        <p><strong>Phone:</strong> {{ site.phone | escape }}</p>
+      {%- endif -%}
+      {%- if site.website -%}
+        <p><strong>Web:</strong> <a href="{{ site.website }}" target="_blank">{{ site.website | escape }}</a></p>
+      {%- endif -%}
+    </div>
+
+  </div>
 
   <!-- Соцсети -->
   <div class="row">
@@ -50,9 +40,13 @@
             </a>
           </li>
         {%- endif -%}
-      {% for link in site.additional_links %}
-  <li>
-    {% include a.html href=link.url class="button button--sacnite button--round-l" %}
-      <i class="{{ link.icon }}" title="{{ link.title }}"></i>
-  </li>
-{% endfor %}
+        {% for link in site.additional_links %}
+          <li>
+            {% include a.html href=link.url class="button button--sacnite button--round-l" %}
+              <i class="{{ link.icon }}" title="{{ link.title }}"></i>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
