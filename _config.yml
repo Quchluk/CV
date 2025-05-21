@@ -109,8 +109,8 @@ content:
         Studied Arabic, Persian, and Chinese linguistics with an emphasis on language change and policy. Bachelor's thesis involved frequency analysis of language reform terms in Persian using historical corpora and basic NLP techniques.
  
  - title: Soft Skills
-  layout: text
-  content: |
+   layout: text
+   content: |
     Ownership & Initiative, Analytical Clarity, Resilience in Complexity, Direct Communication, Learning Autonomy, Independent Problem Solving, Focused Execution
 
 - title: Skills & Languages
@@ -126,13 +126,14 @@ content:
     OCRmyPDF, Tesseract, PyMuPDF for layout-aware extraction; structured output generation for scanned documents
 
     **Speech & Postprocessing:**  
-    Vosk speech recognition, LLM-based text cleanup, punctuation restoration, layout formatting
+    Hugging Face wav2vec2 (Russian), LLM-based text cleanup, punctuation restoration, layout formatting
 
     **Data Handling & Analysis:**  
     pandas, NumPy, Parquet, SQLite; embedding similarity, UMAP, PCA, frequency statistics
 
     **Languages:**  
-   Russian (native), English (C2), Chinese (fluent), Arabic (fluent reading), German (B2), Persian (academic reading)
+    Russian (native), English (C2), Chinese (fluent),  
+    Arabic (fluent reading), German (B2), Persian (academic reading)
    
 - title: 🔒 KEYWORDS
   layout: text
