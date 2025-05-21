@@ -96,20 +96,20 @@ content:
 - title: Education
   layout: list
   content:
-    - layout: top-right
+    - layout: left
       title: Freie Universität Berlin
       sub_title: MA Interdisciplinary Studies of the Middle East
       caption: 2023 – present
       description: |
         Focus on computational methods for historical Arabic and Persian texts. Coursework and research include OCR preprocessing, token normalization, embedding-based analysis of semantic change, and vector comparison across time periods. Participated in the FU–Hebrew University Summer School on Digital Humanities.
 
-    - layout: top-right
+    - layout: left
       title: Higher School of Economics, Moscow
       sub_title: BA Asian and African Studies
       caption: 2017 – 2022
       description: |
-        Studied Arabic, Persian, and Chinese linguistics with an emphasis on language change and policy. Bachelor's thesis involved frequency analysis of language reform terms in Persian using historical corpora and basic NLP techniques.
-
+        Studied Arabic, Persian, and Chinese linguistics with an emphasis on language change and policy. Bachelor’s thesis involved frequency analysis of language reform terms in Persian using historical corpora and basic NLP techniques.
+       
 - title: Soft Skills
   layout: text
   content: |
