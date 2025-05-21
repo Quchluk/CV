@@ -15,10 +15,6 @@ baseurl: ""
 
 name: Anton Smirnov
 title: Computational Linguist/NLP Engineer
-email: AntonSmirnovM@protonmail.com
-phone: +49 170 4312055
-website: https://github.com/Quchluk
-location: Berlin, Germany
 darkmode: true
 github_username: Quchluk
 linkedin_username: amsmirnov
@@ -27,6 +23,10 @@ about_profile_image: images/profile.jpg
 about_content: |
   Master’s student at Freie Universität Berlin (Interdisciplinary Studies of the Middle East), focusing on computational linguistics and digital text analysis. My work involves processing historical Arabic, Persian, and Chinese corpora using OCR, NLP, and vector-based methods. I build tools for semantic retrieval, layout processing, and long-range comparison of textual structures. Interested in open-source, reproducible pipelines, and applications of machine learning to classical texts.
 
+  **Email:** AntonSmirnovM@protonmail.com  
+  **Phone:** +49 170 4312055  
+  **Web:** [github.com/Quchluk](https://github.com/Quchluk)
+  
 content:
 - title: Portfolio
   layout: list
