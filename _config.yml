@@ -81,7 +81,7 @@ content:
         • Task: Connect user queries to relevant content in scanned texts  
         • Output: Page-level traceability and structured answers
         
-   - title: Experience
+- title: Experience
   layout: list
   content:
     - layout: left
@@ -89,8 +89,8 @@ content:
       sub_title: Subcontract for FosAgro (via third party)
       caption: 2023
       description: |
-        Built a processing chain for internal audio interviews. Used an off-the-shelf ASR model to transcribe Russian speech, followed by a language model for text cleanup: inserting punctuation, correcting errors, and restoring missing words. Final output was structured into readable layout blocks for reporting. The tool allowed users to upload audio and receive clean, formatted interview text.
-        
+        Built a simple tool to transcribe and clean audio interviews for an internal project. Used a Hugging Face wav2vec2 model for Russian speech recognition, followed by a language model to improve readability: punctuation, minor corrections, and layout structuring. The tool was used to process a specific batch of interview recordings for internal documentation purposes.
+
 - title: Education
   layout: list
   content:
@@ -134,20 +134,20 @@ content:
     **Languages:**  
    Russian (native), English (C2), Chinese (fluent), Arabic (fluent reading), German (B2), Persian (academic reading)
    
- - title: 🔒 KEYWORDS 
+- title: 🔒 KEYWORDS
   layout: text
   content: |
     **Languages & Tools:** Python, JavaScript, SQL, HTML, CSS, Git, Docker
 
     **Libraries & Frameworks:** pandas, NumPy, scikit-learn, matplotlib, Hugging Face, Streamlit, LangChain, PyMuPDF
 
-    **NLP & Text Analysis:** Retrieval-Augmented Generation (RAG), LangChain RetrievalQA, OpenAI embeddings, FAISS, ChromaDB, embedding-based retrieval, UMAP, PCA, lemmatization, tokenization, frequency analysis
+    **NLP & Semantic Retrieval:** Retrieval-Augmented Generation (RAG), LangChain RetrievalQA, OpenAI embeddings, FAISS, ChromaDB, UMAP, PCA, lemmatization, tokenization, frequency analysis
 
-    **OCR & ASR:** OCRmyPDF, Tesseract, layout parsing, speech recognition, LLM-based cleanup, punctuation correction, text structuring
+    **OCR & Layout:** OCRmyPDF, Tesseract, PyMuPDF layout extraction, text structuring from scanned sources
 
-    **Corpus & Historical Linguistics:** Arabic and Persian corpora, historical text normalization, semantic shift analysis, lexical change tracking
+    **ASR & Postprocessing:** Hugging Face wav2vec2, LLM-based transcript cleanup, punctuation and layout formatting
 
-    **Languages:** Russian (native), English (fluent), Chinese (fluent), Arabic (fluent), German (B2), Persian (reading)
+    **Corpus Work:** Arabic and Persian corpora, historical text normalization, semantic shift tracking
 
 footer_show_references: true
 
