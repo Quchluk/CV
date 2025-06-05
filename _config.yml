@@ -36,24 +36,23 @@ content:
         title: al-Bukhari RAG — Deployed Semantic QA Web App
         sub_title: Personal Research Project — Berlin, Germany | May 2025 – Present
 
-        # основная кнопка-ссылка
+        # БЕЛАЯ кнопка-шайба
         link: https://al-bukhari-rag.onrender.com
-        link_text: Try it out               # белая «кнопка» с чёрным текстом
+        link_text: Try it out     # ← именно наличие link_text даёт btn-light  [oai_citation:3‡github.com](https://github.com/sproogen/modern-resume-theme)
 
-        # вторая ссылка через additional_links
+        # Обычная синяя ссылка под заголовком
         additional_links:
-          - title: GitHub Repository       # подпись (синяя стандартная ссылка)
-            icon: fab fa-github            # иконка GitHub (Brand иконки FontAwesome)
+          - title: GitHub Repository
             url: https://github.com/Quchluk/al-Bukhari-rag-api
 
         description: |
           Fully deployed Retrieval-Augmented Generation (RAG) app for semantic search over the *Sahih al-Bukhari* corpus.
 
-          • LLM: DeepSeek (via OpenRouter, free-tier API)  
-          • UI: Streamlit interface with real-time query execution  
-          • Backend: FAISS vector index with OpenAI embeddings (ada-002), LangChain integration  
-          • Deployment: Render (Free Web Service Plan) with persistent vector storage  
-          • Infrastructure: Lightweight, cost-free deployment without runtime OpenAI usage
+          • LLM: DeepSeek (OpenRouter, free-tier API)  
+          • UI: Streamlit (real-time queries)  
+          • Backend: FAISS + OpenAI embeddings (ada-002), LangChain  
+          • Deployment: Render Free Plan with persistent storage  
+          • Infrastructure: zero-cost runtime (no paid OpenAI calls)
           
       - layout: left
         title: HadithView — Metadata-Based Corpus Explorer
