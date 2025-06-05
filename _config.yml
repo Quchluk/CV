@@ -42,7 +42,8 @@ content:
 
         # Обычная синяя ссылка под заголовком
         additional_links:
-          - title: GitHub Repository                   
+          - title: GitHub Repository            
+            icon: fab fa-github                       
             url: https://github.com/Quchluk/al-Bukhari-rag-api
 
         description: |
