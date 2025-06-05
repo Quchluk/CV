@@ -59,6 +59,7 @@ content:
         title: HadithView — Metadata-Based Corpus Explorer
         sub_title: Independent Project — Berlin, Germany | May 2025 – Present
         link: https://github.com/Quchluk/HadithView
+        icon: fab fa-github 
         link_text: GitHub Repository
         description: |
           Tool for manual browsing of hadith corpora by metadata fields. Used for inspecting QA system outputs and supporting error analysis.
