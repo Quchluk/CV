@@ -35,11 +35,14 @@ content:
       - layout: left
         title: al-Bukhari RAG — Deployed Semantic QA Web App
         sub_title: Personal Research Project — Berlin, Germany | May 2025 – Present
-        link: https://github.com/Quchluk/al-Bukhari-rag-api
-        link_text: GitHub Repository
+        links:
+          - text: GitHub Repository
+            url: https://github.com/Quchluk/al-Bukhari-rag-api
+          - text: Try it out
+            url: https://al-bukhari-rag.onrender.com
+            style: button
+            button_style: outline  # если поддерживается, можно задать: белая кнопка с чёрным контуром
         description: |
-          <a href="https://al-bukhari-rag.onrender.com" target="_blank" style="display:inline-block; padding:6px 14px; background:#ffffff; color:#000000; border:1px solid #000000; border-radius:6px; text-decoration:none; font-weight:bold; margin:6px 0;">Try it out</a>
-
           Fully deployed Retrieval-Augmented Generation (RAG) app for semantic search over the *Sahih al-Bukhari* corpus.
 
           • LLM: DeepSeek (via OpenRouter, free-tier API)  
