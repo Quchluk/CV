@@ -38,9 +38,9 @@ content:
         link: https://github.com/Quchluk/al-Bukhari-rag-api
         link_text: GitHub Repository
         description: |
-          Fully deployed Retrieval-Augmented Generation (RAG) app for semantic search over the *Sahih al-Bukhari* corpus.
+          <a href="https://al-bukhari-rag.onrender.com" target="_blank" style="display:inline-block; padding:6px 14px; background:#ffffff; color:#000000; border:1px solid #000000; border-radius:6px; text-decoration:none; font-weight:bold; margin-bottom:8px;">Try it out</a>
 
-          <a href="https://al-bukhari-rag.onrender.com" target="_blank" style="display:inline-block; padding:6px 14px; background:#007acc; color:#fff; border-radius:6px; text-decoration:none; font-weight:bold; margin-top:6px;">Try it out</a>
+          Fully deployed Retrieval-Augmented Generation (RAG) app for semantic search over the *Sahih al-Bukhari* corpus.
 
           • LLM: DeepSeek (via OpenRouter, free-tier API)  
           • UI: Streamlit interface with real-time query execution  
