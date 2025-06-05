@@ -30,19 +30,19 @@ content:
   - title: Portfolio
     layout: list
     content:
-      - layout: left
-        title: al-Bukhari RAG — Deployed Semantic QA Web App
-        sub_title: Personal Research Project — Berlin, Germany | May 2025 – Present
-        link: https://github.com/Quchluk/al-Bukhari-rag-api
-        link_text: GitHub Repository
-        description: |
-          Fully deployed Retrieval-Augmented Generation (RAG) app for semantic search over the *Sahih al-Bukhari* corpus, live at [al-bukhari-rag.onrender.com](https://al-bukhari-rag.onrender.com).  
+    - layout: left
+      title: al-Bukhari RAG — Deployed Semantic QA Web App
+      sub_title: Personal Research Project — Berlin, Germany | May 2025 – Present
+      link: https://github.com/Quchluk/al-Bukhari-rag-api
+      link_text: GitHub Repository
+      description: |
+        Fully deployed Retrieval-Augmented Generation (RAG) app for semantic search over the *Sahih al-Bukhari* corpus, live at [al-bukhari-rag.onrender.com](https://al-bukhari-rag.onrender.com).  
 
-          • LLM: DeepSeek (via OpenRouter, free-tier API)  
-          • UI: Streamlit interface with real-time query execution  
-          • Backend: FAISS vector index with OpenAI embeddings (ada-002), LangChain integration  
-          • Deployment: Render (Free Web Service Plan) with persistent vector storage  
-          • Infrastructure: Lightweight, cost-free deployment without runtime OpenAI usage
+         • LLM: DeepSeek (via OpenRouter, free-tier API)  
+         • UI: Streamlit interface with real-time query execution  
+         • Backend: FAISS vector index with OpenAI embeddings (ada-002), LangChain integration  
+         • Deployment: Render (Free Web Service Plan) with persistent vector storage  
+         • Infrastructure: Lightweight, cost-free deployment without runtime OpenAI usage
 
     - layout: left
       title: HadithView — Metadata-Based Corpus Explorer
