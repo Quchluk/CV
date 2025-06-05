@@ -40,8 +40,6 @@ content:
             url: https://github.com/Quchluk/al-Bukhari-rag-api
           - text: Try it out
             url: https://al-bukhari-rag.onrender.com
-            style: button
-            button_style: outline  # если поддерживается, можно задать: белая кнопка с чёрным контуром
         description: |
           Fully deployed Retrieval-Augmented Generation (RAG) app for semantic search over the *Sahih al-Bukhari* corpus.
 
