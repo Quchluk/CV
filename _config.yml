@@ -27,131 +27,131 @@ linkedin_username: amsmirnov
 about_profile_image: images/profile.jpg
 about_content: |
   Master’s student at Freie Universität Berlin (Interdisciplinary Studies of the Middle East), focusing on computational linguistics and digital text analysis. My work involves processing historical Arabic, Persian, and Chinese corpora using OCR, NLP, and vector-based methods. I build tools for semantic retrieval, layout processing, and long-range comparison of textual structures. Interested in open-source, reproducible pipelines, and applications of machine learning to classical texts.
-  
+
 content:
   - title: Portfolio
     layout: list
     content:
-    - layout: left
-      title: al-Bukhari RAG — Deployed Semantic QA Web App
-      sub_title: Personal Research Project — Berlin, Germany | May 2025 – Present
-      link: https://github.com/Quchluk/al-Bukhari-rag-api
-      link_text: GitHub Repository
-      description: |
-        Fully deployed Retrieval-Augmented Generation (RAG) app for semantic search over the *Sahih al-Bukhari* corpus, live at [al-bukhari-rag.onrender.com](https://al-bukhari-rag.onrender.com).  
+      - layout: left
+        title: al-Bukhari RAG — Deployed Semantic QA Web App
+        sub_title: Personal Research Project — Berlin, Germany | May 2025 – Present
+        link: https://github.com/Quchluk/al-Bukhari-rag-api
+        link_text: GitHub Repository
+        description: |
+          Fully deployed Retrieval-Augmented Generation (RAG) app for semantic search over the *Sahih al-Bukhari* corpus, live at [al-bukhari-rag.onrender.com](https://al-bukhari-rag.onrender.com).  
 
-         • LLM: DeepSeek (via OpenRouter, free-tier API)  
-         • UI: Streamlit interface with real-time query execution  
-         • Backend: FAISS vector index with OpenAI embeddings (ada-002), LangChain integration  
-         • Deployment: Render (Free Web Service Plan) with persistent vector storage  
-         • Infrastructure: Lightweight, cost-free deployment without runtime OpenAI usage
+           • LLM: DeepSeek (via OpenRouter, free-tier API)  
+           • UI: Streamlit interface with real-time query execution  
+           • Backend: FAISS vector index with OpenAI embeddings (ada-002), LangChain integration  
+           • Deployment: Render (Free Web Service Plan) with persistent vector storage  
+           • Infrastructure: Lightweight, cost-free deployment without runtime OpenAI usage
 
-    - layout: left
-      title: HadithView — Metadata-Based Corpus Explorer
-      sub_title: Independent Project — Berlin, Germany | May 2025 – Present
-      link: https://github.com/Quchluk/HadithView
-      link_text: GitHub Repository
-      description: |
-        Tool for manual browsing of hadith corpora by metadata fields. Used for inspecting QA system outputs and supporting error analysis.
+      - layout: left
+        title: HadithView — Metadata-Based Corpus Explorer
+        sub_title: Independent Project — Berlin, Germany | May 2025 – Present
+        link: https://github.com/Quchluk/HadithView
+        link_text: GitHub Repository
+        description: |
+          Tool for manual browsing of hadith corpora by metadata fields. Used for inspecting QA system outputs and supporting error analysis.
 
-        • Data: Parquet + pandas  
-        • UI: Streamlit with filter/search capabilities  
-        • Purpose: Assist in debugging, dataset inspection, and manual verification
+          • Data: Parquet + pandas  
+          • UI: Streamlit with filter/search capabilities  
+          • Purpose: Assist in debugging, dataset inspection, and manual verification
 
-    - layout: left
-      title: HadithRAG — Scalable QA for Multi-Volume Hadith Collections
-      sub_title: Independent Project — Berlin, Germany | May 2025 – Present
-      link: https://github.com/Quchluk/HadithRAG
-      link_text: GitHub Repository
-      description: |
-        Extension of the Bukhari pipeline to larger multi-volume hadith collections (e.g., Muslim, Tirmidhi). Focus on efficient indexing and multilingual support.
+      - layout: left
+        title: HadithRAG — Scalable QA for Multi-Volume Hadith Collections
+        sub_title: Independent Project — Berlin, Germany | May 2025 – Present
+        link: https://github.com/Quchluk/HadithRAG
+        link_text: GitHub Repository
+        description: |
+          Extension of the Bukhari pipeline to larger multi-volume hadith collections (e.g., Muslim, Tirmidhi). Focus on efficient indexing and multilingual support.
 
-        • Data: Parquet format with structured metadata  
-        • Retrieval: ChromaDB + OpenAI embeddings  
-        • UI: Streamlit with language filters and search  
-        • Focus: Performance, modularity, and extensibility for future corpora
+          • Data: Parquet format with structured metadata  
+          • Retrieval: ChromaDB + OpenAI embeddings  
+          • UI: Streamlit with language filters and search  
+          • Focus: Performance, modularity, and extensibility for future corpora
 
-    - layout: left
-      title: OCRmyPDF-RAG Assistant
-      sub_title: Independent Project — Berlin, Germany | May 2025 – Present
-      link: https://github.com/Quchluk/OCRmyPDF-RAG-Assistant
-      link_text: GitHub Repository
-      description: |
-        Pipeline for question answering over scanned academic PDFs. Includes OCR, layout extraction, semantic search, and source-linked output.
+      - layout: left
+        title: OCRmyPDF-RAG Assistant
+        sub_title: Independent Project — Berlin, Germany | May 2025 – Present
+        link: https://github.com/Quchluk/OCRmyPDF-RAG-Assistant
+        link_text: GitHub Repository
+        description: |
+          Pipeline for question answering over scanned academic PDFs. Includes OCR, layout extraction, semantic search, and source-linked output.
 
-        • OCR & Layout: OCRmyPDF, Tesseract, PyMuPDF  
-        • Retrieval: ChromaDB, OpenAI embeddings, LangChain RetrievalQA  
-        • Task: Connect user queries to relevant content in scanned texts  
-        • Output: Page-level traceability and structured answers
+          • OCR & Layout: OCRmyPDF, Tesseract, PyMuPDF  
+          • Retrieval: ChromaDB, OpenAI embeddings, LangChain RetrievalQA  
+          • Task: Connect user queries to relevant content in scanned texts  
+          • Output: Page-level traceability and structured answers
 
-- title: Experience
-  layout: list
-  content:
-    - layout: left
-      title: ASR & NLP Pipeline Assistant
-      sub_title: Subcontract for FosAgro (via third party)
-      caption: 2023
-      description: |
-        Built a simple tool to transcribe and clean audio interviews for an internal project. Used a Hugging Face wav2vec2 model for Russian speech recognition, followed by a language model to improve readability: punctuation, minor corrections, and layout structuring. The tool was used to process a specific batch of interview recordings for internal documentation purposes.
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: ASR & NLP Pipeline Assistant
+        sub_title: Subcontract for FosAgro (via third party)
+        caption: 2023
+        description: |
+          Built a simple tool to transcribe and clean audio interviews for an internal project. Used a Hugging Face wav2vec2 model for Russian speech recognition, followed by a language model to improve readability: punctuation, minor corrections, and layout structuring. The tool was used to process a specific batch of interview recordings for internal documentation purposes.
 
-- title: Education
-  layout: list
-  content:
-    - layout: left
-      title: Freie Universität Berlin
-      sub_title: MA Interdisciplinary Studies of the Middle East
-      caption: 2023 – present
-      description: |
-        Focus on computational methods for historical Arabic and Persian texts. Coursework and research include OCR preprocessing, token normalization, embedding-based analysis of semantic change, and vector comparison across time periods. Participated in the FU–Hebrew University Summer School on Digital Humanities.
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Freie Universität Berlin
+        sub_title: MA Interdisciplinary Studies of the Middle East
+        caption: 2023 – present
+        description: |
+          Focus on computational methods for historical Arabic and Persian texts. Coursework and research include OCR preprocessing, token normalization, embedding-based analysis of semantic change, and vector comparison across time periods. Participated in the FU–Hebrew University Summer School on Digital Humanities.
 
-    - layout: left
-      title: Higher School of Economics, Moscow
-      sub_title: BA Asian and African Studies
-      caption: 2017 – 2022
-      description: |
-        Studied Arabic, Persian, and Chinese linguistics with an emphasis on language change and policy. Bachelor’s thesis involved frequency analysis of language reform terms in Persian using historical corpora and basic NLP techniques.
-       
-- title: Soft Skills
-  layout: text
-  content: |
-    Ownership & Initiative, Analytical Clarity, Resilience in Complexity, Direct Communication, Learning Autonomy, Independent Problem Solving, Focused Execution
+      - layout: left
+        title: Higher School of Economics, Moscow
+        sub_title: BA Asian and African Studies
+        caption: 2017 – 2022
+        description: |
+          Studied Arabic, Persian, and Chinese linguistics with an emphasis on language change and policy. Bachelor’s thesis involved frequency analysis of language reform terms in Persian using historical corpora and basic NLP techniques.
 
-- title: Skills & Languages
-  layout: text
-  content: |
-    **Languages & Tools:**  
-    Python, JavaScript, SQL, HTML/CSS, Git, Docker
+  - title: Soft Skills
+    layout: text
+    content: |
+      Ownership & Initiative, Analytical Clarity, Resilience in Complexity, Direct Communication, Learning Autonomy, Independent Problem Solving, Focused Execution
 
-    **NLP & Semantic Retrieval:**  
-    RAG pipelines (LangChain RetrievalQA), OpenAI embeddings, FAISS, ChromaDB, tokenization, lemmatization, semantic filtering, multilingual input handling
+  - title: Skills & Languages
+    layout: text
+    content: |
+      **Languages & Tools:**  
+      Python, JavaScript, SQL, HTML/CSS, Git, Docker
 
-    **OCR & Text Structuring:**  
-    OCRmyPDF, Tesseract, PyMuPDF for layout-aware extraction; structured output generation for scanned documents
+      **NLP & Semantic Retrieval:**  
+      RAG pipelines (LangChain RetrievalQA), OpenAI embeddings, FAISS, ChromaDB, tokenization, lemmatization, semantic filtering, multilingual input handling
 
-    **Speech & Postprocessing:**  
-    Hugging Face wav2vec2 (Russian), LLM-based text cleanup, punctuation restoration, layout formatting
+      **OCR & Text Structuring:**  
+      OCRmyPDF, Tesseract, PyMuPDF for layout-aware extraction; structured output generation for scanned documents
 
-    **Data Handling & Analysis:**  
-    pandas, NumPy, Parquet, SQLite; embedding similarity, UMAP, PCA, frequency statistics
+      **Speech & Postprocessing:**  
+      Hugging Face wav2vec2 (Russian), LLM-based text cleanup, punctuation restoration, layout formatting
 
-    **Languages:**  
-    Russian (native), English (C2), Chinese (fluent),  
-    Arabic (fluent reading), German (B2), Persian (academic reading)
+      **Data Handling & Analysis:**  
+      pandas, NumPy, Parquet, SQLite; embedding similarity, UMAP, PCA, frequency statistics
 
-- title: 🔒 KEYWORDS
-  layout: text
-  content: |
-    **Languages & Tools:** Python, JavaScript, SQL, HTML, CSS, Git, Docker
+      **Languages:**  
+      Russian (native), English (C2), Chinese (fluent),  
+      Arabic (fluent reading), German (B2), Persian (academic reading)
 
-    **Libraries & Frameworks:** pandas, NumPy, scikit-learn, matplotlib, Hugging Face, Streamlit, LangChain, PyMuPDF
+  - title: 🔒 KEYWORDS
+    layout: text
+    content: |
+      **Languages & Tools:** Python, JavaScript, SQL, HTML, CSS, Git, Docker
 
-    **NLP & Semantic Retrieval:** Retrieval-Augmented Generation (RAG), LangChain RetrievalQA, OpenAI embeddings, FAISS, ChromaDB, UMAP, PCA, lemmatization, tokenization, frequency analysis
+      **Libraries & Frameworks:** pandas, NumPy, scikit-learn, matplotlib, Hugging Face, Streamlit, LangChain, PyMuPDF
 
-    **OCR & Layout:** OCRmyPDF, Tesseract, PyMuPDF layout extraction, text structuring from scanned sources
+      **NLP & Semantic Retrieval:** Retrieval-Augmented Generation (RAG), LangChain RetrievalQA, OpenAI embeddings, FAISS, ChromaDB, UMAP, PCA, lemmatization, tokenization, frequency analysis
 
-    **ASR & Postprocessing:** Hugging Face wav2vec2, LLM-based transcript cleanup, punctuation and layout formatting
+      **OCR & Layout:** OCRmyPDF, Tesseract, PyMuPDF layout extraction, text structuring from scanned sources
 
-    **Corpus Work:** Arabic and Persian corpora, historical text normalization, semantic shift tracking
+      **ASR & Postprocessing:** Hugging Face wav2vec2, LLM-based transcript cleanup, punctuation and layout formatting
+
+      **Corpus Work:** Arabic and Persian corpora, historical text normalization, semantic shift tracking
 
 footer_show_references: true
 
