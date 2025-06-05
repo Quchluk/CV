@@ -35,17 +35,11 @@ content:
       - layout: left
         title: al-Bukhari RAG — Deployed Semantic QA Web App
         sub_title: Personal Research Project — Berlin, Germany | May 2025 – Present
-
-        # основная кнопка-ссылка
         link: https://al-bukhari-rag.onrender.com
-        link_text: Try it out               # белая «кнопка» с чёрным текстом
-
-        # вторая ссылка через additional_links
+        link_text: Try it out
         additional_links:
-          - title: GitHub Repository       # подпись (синяя стандартная ссылка)
-            icon: fab fa-github            # иконка GitHub (Brand иконки FontAwesome)
+          - icon: fab fa-github
             url: https://github.com/Quchluk/al-Bukhari-rag-api
-
         description: |
           Fully deployed Retrieval-Augmented Generation (RAG) app for semantic search over the *Sahih al-Bukhari* corpus.
 
@@ -54,13 +48,13 @@ content:
           • Backend: FAISS vector index with OpenAI embeddings (ada-002), LangChain integration  
           • Deployment: Render (Free Web Service Plan) with persistent vector storage  
           • Infrastructure: Lightweight, cost-free deployment without runtime OpenAI usage
-          
+
       - layout: left
         title: HadithView — Metadata-Based Corpus Explorer
         sub_title: Independent Project — Berlin, Germany | May 2025 – Present
-        link: https://github.com/Quchluk/HadithView
-        icon: fab fa-github 
-        link_text: GitHub Repository
+        additional_links:
+          - icon: fab fa-github
+            url: https://github.com/Quchluk/HadithView
         description: |
           Tool for manual browsing of hadith corpora by metadata fields. Used for inspecting QA system outputs and supporting error analysis.
 
@@ -71,8 +65,9 @@ content:
       - layout: left
         title: HadithRAG — Scalable QA for Multi-Volume Hadith Collections
         sub_title: Independent Project — Berlin, Germany | May 2025 – Present
-        link: https://github.com/Quchluk/HadithRAG
-        link_text: GitHub Repository
+        additional_links:
+          - icon: fab fa-github
+            url: https://github.com/Quchluk/HadithRAG
         description: |
           Extension of the Bukhari pipeline to larger multi-volume hadith collections (e.g., Muslim, Tirmidhi). Focus on efficient indexing and multilingual support.
 
@@ -84,8 +79,9 @@ content:
       - layout: left
         title: OCRmyPDF-RAG Assistant
         sub_title: Independent Project — Berlin, Germany | May 2025 – Present
-        link: https://github.com/Quchluk/OCRmyPDF-RAG-Assistant
-        link_text: GitHub Repository
+        additional_links:
+          - icon: fab fa-github
+            url: https://github.com/Quchluk/OCRmyPDF-RAG-Assistant
         description: |
           Pipeline for question answering over scanned academic PDFs. Includes OCR, layout extraction, semantic search, and source-linked output.
 
