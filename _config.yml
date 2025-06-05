@@ -35,16 +35,17 @@ content:
       - layout: left
         title: al-Bukhari RAG — Deployed Semantic QA Web App
         sub_title: Personal Research Project — Berlin, Germany | May 2025 – Present
-        links:
-          - text: GitHub Repository
-            link: https://github.com/Quchluk/al-Bukhari-rag-api
-          - text: Try it out
-            link: https://al-bukhari-rag.onrender.com
+
+        link: https://al-bukhari-rag.onrender.com
+        link_text: Try it out      
+
+        github: Quchluk/al-Bukhari-rag-api
+
         description: |
           Fully deployed Retrieval-Augmented Generation (RAG) app for semantic search over the *Sahih al-Bukhari* corpus.
 
           • LLM: DeepSeek (via OpenRouter, free-tier API)  
-          • UI: Streamlit interface with real-time query execution  
+          • UI: Streamlit with real-time query execution  
           • Backend: FAISS vector index with OpenAI embeddings (ada-002), LangChain integration  
           • Deployment: Render (Free Web Service Plan) with persistent vector storage  
           • Infrastructure: Lightweight, cost-free deployment without runtime OpenAI usage
