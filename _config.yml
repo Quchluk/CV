@@ -35,10 +35,11 @@ content:
       - layout: left
         title: al-Bukhari RAG — Deployed Semantic QA Web App
         sub_title: Personal Research Project — Berlin, Germany | May 2025 – Present
-        link: https://github.com/Quchluk/al-Bukhari-rag-api
-        link_text: GitHub Repository
-        link2: https://al-bukhari-rag.onrender.com
-        link2_text: Try it out
+        links:
+          - text: GitHub Repository
+            link: https://github.com/Quchluk/al-Bukhari-rag-api
+          - text: Try it out
+            link: https://al-bukhari-rag.onrender.com
         description: |
           Fully deployed Retrieval-Augmented Generation (RAG) app for semantic search over the *Sahih al-Bukhari* corpus.
 
