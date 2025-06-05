@@ -40,6 +40,7 @@ content:
             url: https://github.com/Quchluk/al-Bukhari-rag-api
           - text: Try it out
             url: https://al-bukhari-rag.onrender.com
+            variant: button
         description: |
           Fully deployed Retrieval-Augmented Generation (RAG) app for semantic search over the *Sahih al-Bukhari* corpus.
 
