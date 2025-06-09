@@ -77,6 +77,22 @@ content:
           • Focus: Performance, modularity, and extensibility for future corpora
 
       - layout: left
+        title: JLProj — Johnson–Lindenstrauss Projection Toolkit
+        sub_title: Python Package — Berlin, Germany | May 2025 – Present
+        link: https://pypi.org/project/jlproj/
+        link_text: PyPI Package
+        additional_links:
+          - icon: fab fa-github
+            url: https://github.com/Quchluk/jlproj
+        description: |
+          Lightweight Python library for fast Johnson–Lindenstrauss (JL) dimensionality reduction. Designed for efficient projection of high-dimensional text embeddings with minimal distortion.
+
+          • CLI & Python API: Apply JL projections to vectors or corpora  
+          • Integration: Compatible with FAISS for scalable similarity search  
+          • Use Case: Clustering, semantic analysis, fast search in high-dimensional spaces  
+          • Deployment: Available via PyPI, includes CLI and API docs
+
+      - layout: left
         title: OCRmyPDF-RAG Assistant
         sub_title: Independent Project — Berlin, Germany | May 2025 – Present
         additional_links:
@@ -154,6 +170,8 @@ content:
       **NLP & Semantic Retrieval:** Retrieval-Augmented Generation (RAG), LangChain RetrievalQA, OpenAI embeddings, FAISS, ChromaDB, UMAP, PCA, lemmatization, tokenization, frequency analysis
 
       **OCR & Layout:** OCRmyPDF, Tesseract, PyMuPDF layout extraction, text structuring from scanned sources
+
+      **Dimensionality Reduction & Indexing:** JLProj (JL Projection), UMAP, PCA, FAISS
 
       **ASR & Postprocessing:** Hugging Face wav2vec2, LLM-based transcript cleanup, punctuation and layout formatting
 
