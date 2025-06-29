@@ -32,21 +32,23 @@ content:
   - title: Portfolio
     layout: list
     content:
-       - layout: left
-        title: AskSunna — Conversational Interface for Islamic Hadith Knowledge
-        sub_title: Independent Project — Berlin, Germany | June 2025 – Present
+      - layout: left
+        title: AskSunna — Semantic Engine for Sunni Hadith Corpora
+        sub_title: Research Project — Berlin, Germany | June 2025 – Present
+        link: https://asksunna.fly.dev/
+        link_text: Try it out
         additional_links:
-       - icon: fab fa-github
+      - icon: fab fa-github
         url: https://github.com/Quchluk/AskSunna
         description: |
-          Multi-agent RAG interface for navigating the *Sahih* hadith corpus through layered discourse analysis.
+        Search and analysis system over 50,000+ hadiths from major Sunni collections. Enables semantic retrieval, metadata filtering, and cross-collection comparison.
 
-          • Architecture: Modular FastAPI backend with OpenRouter LLM and Chroma vector store  
-          • Reasoning: Layered prompt stack ("Censor", "Ironist", etc.) enabling multi-perspective evaluation  
-          • UI: Minimalist web interface with real-time reasoning and filtering  
-          • Use Case: Explores hadith content through philosophical lenses and LLM-mediated discourse filters  
-          • Goal: Create a public tool for theological engagement, post-structural critique, and interactive learning
-          
+        • Sources: al-Bukhari, Muslim, Abu Dawood, Tirmidhi, Nasai, Ibn Majah, Muwatta, Darimi, Ahmad, and others  
+        • Data: Parquet corpus with full metadata (book, chapter, uid_chunked, source)  
+        • Indexing: One FAISS vector index per collection using OpenAI text-embedding-3-large (Arabic)  
+        • Retrieval: Fast semantic search across canonical hadith texts with structured output  
+        • Focus: Tooling for vector-based exploration of Sunni hadith tradition
+        
       - layout: left
         title: al-Bukhari RAG — Deployed Semantic QA Web App
         sub_title: Personal Research Project — Berlin, Germany | May 2025 – Present
