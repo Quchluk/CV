@@ -38,16 +38,16 @@ content:
         link: https://asksunna.fly.dev/
         link_text: Try it out
         additional_links:
-      - icon: fab fa-github
-        url: https://github.com/Quchluk/AskSunna
+          - icon: fab fa-github
+            url: https://github.com/Quchluk/AskSunna
         description: |
-        Search and analysis system over 50,000+ hadiths from major Sunni collections. Enables semantic retrieval, metadata filtering, and cross-collection comparison.
+          Search and analysis system over 50,000+ hadiths from major Sunni collections. Enables semantic retrieval, metadata filtering, and cross-collection comparison.
 
-        • Sources: al-Bukhari, Muslim, Abu Dawood, Tirmidhi, Nasai, Ibn Majah, Muwatta, Darimi, Ahmad, and others  
-        • Data: Parquet corpus with full metadata (book, chapter, uid_chunked, source)  
-        • Indexing: One FAISS vector index per collection using OpenAI text-embedding-3-large (Arabic)  
-        • Retrieval: Fast semantic search across canonical hadith texts with structured output  
-        • Focus: Tooling for vector-based exploration of Sunni hadith tradition
+          • Sources: al-Bukhari, Muslim, Abu Dawood, Tirmidhi, Nasai, Ibn Majah, Muwatta, Darimi, Ahmad, and others  
+          • Data: Parquet corpus with full metadata (book, chapter, uid_chunked, source)  
+          • Indexing: One FAISS vector index per collection using OpenAI text-embedding-3-large (Arabic)  
+          • Retrieval: Fast semantic search across canonical hadith texts with structured output  
+          • Focus: Tooling for vector-based exploration of Sunni hadith tradition
         
       - layout: left
         title: al-Bukhari RAG — Deployed Semantic QA Web App
