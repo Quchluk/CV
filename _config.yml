@@ -32,6 +32,21 @@ content:
   - title: Portfolio
     layout: list
     content:
+       - layout: left
+        title: AskSunna — Conversational Interface for Islamic Hadith Knowledge
+        sub_title: Independent Project — Berlin, Germany | June 2025 – Present
+        additional_links:
+       - icon: fab fa-github
+        url: https://github.com/Quchluk/AskSunna
+        description: |
+          Multi-agent RAG interface for navigating the *Sahih* hadith corpus through layered discourse analysis.
+
+          • Architecture: Modular FastAPI backend with OpenRouter LLM and Chroma vector store  
+          • Reasoning: Layered prompt stack ("Censor", "Ironist", etc.) enabling multi-perspective evaluation  
+          • UI: Minimalist web interface with real-time reasoning and filtering  
+          • Use Case: Explores hadith content through philosophical lenses and LLM-mediated discourse filters  
+          • Goal: Create a public tool for theological engagement, post-structural critique, and interactive learning
+          
       - layout: left
         title: al-Bukhari RAG — Deployed Semantic QA Web App
         sub_title: Personal Research Project — Berlin, Germany | May 2025 – Present
